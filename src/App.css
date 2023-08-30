@@ -6,7 +6,7 @@
 .container{
   width: 100%;
   min-height: 100vh;
-  background-color: rgb(127, 148, 250);
+  background-image:url('../public/bg1.jpg');
   background-size: cover;
   background-position: center;
   padding: 10px 0;
@@ -18,12 +18,21 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin-top: -27px;
+margin-top: -50px;
 }
 
 .logo{
-  width: 180px;
+  width: 50px;
   cursor: pointer;
+  mix-blend-mode: darken;
+  margin-left: 31px;
+  
+}
+
+.icon{
+  width: 60px;
+  cursor: pointer;
+  mix-blend-mode: darken;
 }
 
 nav ul{

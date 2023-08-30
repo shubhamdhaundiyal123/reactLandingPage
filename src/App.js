@@ -17,7 +17,7 @@ function App() {
           </li>
         </ul>
         <button className="btn" >
-          <img src="images/icon.png" alt="Aeroplane" />
+          <img src="images/images.png" className="icon" alt="Aeroplane" />
           Bookings
         </button>
       </nav>
